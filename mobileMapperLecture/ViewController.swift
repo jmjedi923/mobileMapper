@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import MapKit
+import MediaPlayer
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var mapKit: MKMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
